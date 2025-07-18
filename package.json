@@ -1,0 +1,29 @@
+{
+    "name": "dashhub",
+    "version": "1.0.0",
+    "main": "tailwind.config.js",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "watch": "mix watch",
+        "build": "vite build",
+        "dev:css": "npx tailwindcss -i build/tailwind.css -o public/assets/css/style.css --watch",
+        "build:css": "npx tailwindcss -i build/tailwind.css -o public/assets/css/style.css --minify"
+    },
+    "devDependencies": {
+        "@tailwindcss/forms": "^0.5.3",
+        "axios": "^1.6.4",
+        "laravel-echo": "^1.16.1",
+        "laravel-mix": "^6.0.49",
+        "laravel-vite-plugin": "^1.0",
+        "pusher-js": "^8.4.0-rc2",
+        "tailwind-scrollbar": "^3.0.1",
+        "tailwindcss": "^3.4.1",
+        "vite": "^5.0"
+    },
+    "dependencies": {
+        "pdfjs-dist": "^4.7.76",
+        "turn.js": "^1.0.2"
+    }
+}
